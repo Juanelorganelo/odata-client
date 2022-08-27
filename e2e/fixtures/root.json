@@ -1,0 +1,66 @@
+[
+    {
+        "scope": "https://services.odata.org:443",
+        "method": "GET",
+        "path": "/TripPinRESTierService/(S(ayl54pmyj0rh5l151nhbbrqj))/",
+        "body": "",
+        "status": 200,
+        "response": {
+            "@odata.context": "https://services.odata.org/TripPinRESTierService/(S(ayl54pmyj0rh5l151nhbbrqj))/$metadata",
+            "value": [
+                {
+                    "name": "People",
+                    "kind": "EntitySet",
+                    "url": "People"
+                },
+                {
+                    "name": "Airlines",
+                    "kind": "EntitySet",
+                    "url": "Airlines"
+                },
+                {
+                    "name": "Airports",
+                    "kind": "EntitySet",
+                    "url": "Airports"
+                },
+                {
+                    "name": "NewComePeople",
+                    "kind": "EntitySet",
+                    "url": "NewComePeople"
+                },
+                {
+                    "name": "Me",
+                    "kind": "Singleton",
+                    "url": "Me"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Cache-Control",
+            "no-cache",
+            "Pragma",
+            "no-cache",
+            "Content-Length",
+            "393",
+            "Content-Type",
+            "application/json; odata.metadata=minimal",
+            "Expires",
+            "-1",
+            "Server",
+            "Microsoft-IIS/10.0",
+            "OData-Version",
+            "4.0",
+            "X-AspNet-Version",
+            "4.0.30319",
+            "X-Powered-By",
+            "ASP.NET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Date",
+            "Thu, 17 Dec 2020 19:54:34 GMT",
+            "Connection",
+            "close"
+        ],
+        "responseIsBinary": false
+    }
+]
