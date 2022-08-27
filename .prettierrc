@@ -1,0 +1,17 @@
+{
+  "trailingComma": "all",
+  "arrowParens": "always",
+  "singleQuote": true,
+  "bracketSpacing": false,
+  "endOfLine": "lf",
+  "printWidth": 100,
+  "quoteProps": "consistent",
+  "overrides": [
+    {
+      "files": ["*.json"],
+      "options": {
+        "printWidth": 80
+      }
+    }
+  ]
+}

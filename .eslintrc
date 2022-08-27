@@ -1,0 +1,27 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2019
+  },
+  "env": {
+    "jest": true
+  },
+  "extends": ["google", "plugin:node/recommended", "plugin:prettier/recommended"],
+  "rules": {
+    "prettier/prettier": "error",
+    "require-jsdoc": "off",
+    "no-warning-comments": ["warn", {"terms": ["todo", "fixme"], "location": "anywhere"}],
+    "no-undef": "error",
+    "no-negated-condition": "warn",
+    "camelcase": "warn",
+    "new-cap": [
+      "error",
+      {
+        "capIsNewExceptions": ["STRING", "FLOAT", "DOUBLE", "TEXT", "CHAR", "ENUM"]
+      }
+    ],
+    "no-process-exit": "off",
+    "node/no-extraneous-import": "off",
+    "node/no-unpublished-import": "off",
+    "node/no-unpublished-require": "off"
+  }
+}
