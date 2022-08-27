@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix",
+    "lint:fix": "pnpm run lint -- --fix",
     "format": "prettier --write .",
     "release": "node scripts/release.js",
     "test": "jest 'tests(/.*)?/.*\\.spec\\.js'",
