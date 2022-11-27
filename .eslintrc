@@ -1,11 +1,11 @@
 {
   "parserOptions": {
-    "ecmaVersion": 2019
+    "ecmaVersion": 2021
   },
   "env": {
     "jest": true
   },
-  "extends": ["google", "plugin:node/recommended", "plugin:prettier/recommended"],
+  "extends": ["eslint:recommended", "plugin:node/recommended", "plugin:prettier/recommended"],
   "rules": {
     "prettier/prettier": "error",
     "require-jsdoc": "off",

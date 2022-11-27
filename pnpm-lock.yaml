@@ -5,7 +5,6 @@ specifiers:
   camelcase: ^6.0.0
   chalk: ^4.1.0
   eslint: ^7.4.0
-  eslint-config-google: ^0.14.0
   eslint-config-prettier: ^6.11.0
   eslint-plugin-node: ^11.1.0
   eslint-plugin-prettier: ^3.1.4
@@ -24,7 +23,6 @@ dependencies:
 devDependencies:
   chalk: 4.1.2
   eslint: 7.32.0
-  eslint-config-google: 0.14.0_eslint@7.32.0
   eslint-config-prettier: 6.15.0_eslint@7.32.0
   eslint-plugin-node: 11.1.0_eslint@7.32.0
   eslint-plugin-prettier: 3.4.1_rpj2lnfnqon5xeujjqgixljdgq
@@ -1415,15 +1413,6 @@ packages:
       optionator: 0.8.3
     optionalDependencies:
       source-map: 0.6.1
-    dev: true
-
-  /eslint-config-google/0.14.0_eslint@7.32.0:
-    resolution: {integrity: sha512-WsbX4WbjuMvTdeVL6+J3rK1RGhCTqjsFjX7UMSMgZiyxxaNLkoJENbrGExzERFeoTpGw3F3FypTiWAP9ZXzkEw==}
-    engines: {node: '>=0.10.0'}
-    peerDependencies:
-      eslint: '>=5.16.0'
-    dependencies:
-      eslint: 7.32.0
     dev: true
 
   /eslint-config-prettier/6.15.0_eslint@7.32.0:
